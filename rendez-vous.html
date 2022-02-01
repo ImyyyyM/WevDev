@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="design.css" >
+    <title>Rendez-vous</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar navbar-expand-lg bg-dark navbar-dark" >
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand"><strong>ASEDSGLAM - </strong><span>Salon de Coiffure</span></a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav ml-auto">
+                    <a href="Acceuil.html" class="nav-item nav-link"><strong>Acceuil</strong></a>
+                    <a href="nos services.html" class="nav-item nav-link"><strong>Nos services</strong></a>
+                    <a href="rendez-vous.html" class="nav-item nav-link"><strong>Rendez-vous</strong></a>
+                    <a href="#titre3"><strong>A propos</strong></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1 align="center" ><i><strong>ASEDSGLAM</strong></i></h1>
+    <h2 id="ti1"><strong>Mon rendez-vous</strong></h2>
+    <form method="post" action="serveur.php">
+        <fieldset style="height: 34cm;"> 
+            <strong>
+                <legend id="legend"><i> Veuillez remplir ce formulaire</i></legend>
+            <label id="lab1" >Nom:</label>
+            <input id="form1" type="text" name="nom">
+            <br/>
+            <label id="lab2" >Prénom:</label>
+            <input id="form2" type="text" name="prénom">
+            <br/>
+            <label id="lab3">Numéro de téléphone:</label>
+            <input id="form3" type="tel" name="num">
+            <br/>
+            <label id="lab4">Adresse email:</label>
+            <input id="form4" type="email">
+            <label id="lab5">Les prestations:</label>
+            <br/>
+            <div >
+            <input id="check1" type="checkbox" name="check1">
+            <label for="check1" id="labe1">Brushing</label> 
+            </div>
+            <div>
+            <input id="check2" type="checkbox" name="check2">
+            <label for="check2" id="labe2">Coupe</label> 
+            </div>
+            <div>
+            <input id="check3" type="checkbox" name="check3">
+            <label for="check3" id="labe3">Coloration</label>
+            </div>
+            <div>
+            <input id="check4" type="checkbox" name="check4">
+            <label for="check4" id="labe4">Balayage</label>
+            </div>
+            <div>
+            <input id="check5" type="checkbox" name="check5">
+            <label for="check5" id="labe5">Lissage</label>
+            </div>
+            <div>
+            <input id="check6" type="checkbox" name="check6">
+            <label for="check6" id="labe6">Soin de visage</label>
+            </div>
+            <div>
+            <input id="check7" type="checkbox" name="check7"> 
+            <label for="check7" id="labe7">Manicure</label>
+            </div>
+            <div>
+            <input id="check8" type="checkbox" name="check8">
+            <label for="check8" id="labe8">Pedicure</label>
+            </div>
+            <div>
+            <input id="check9" type="checkbox" name="check9">
+            <label for="check9" id="labe9">Vernis permanent</label>
+            </div>
+            <label id="coif">Coiffeur selectionné:</label>
+            <select id="list" size="2">
+                <option>Coiffeur x</option>
+                <option>Coiffeur y</option>
+                <option>Coiffeur z</option>
+            </select>
+            <label id="date">Choisir une date:</label>
+            <input type="date" id="dat" >
+            <label id="heure">Choisir une heure:</label>
+            <input type="time" id="heur">
+            <input id="sub" type="submit" value="Envoyer">
+            <input id="res" type="reset" value="Annuler">
+            </strong>
+        </fieldset>
+    </form>
+     <hr id="sep1" size="5px" align="center" width="100%" color="violet">
+    <h2 id=titr1>Horaires d'ouverture</h2> 
+     <dl id="hor2">
+         <dt align=center> Lundi: 9:30–22:00</dt><dd>réservation non obligatoire</dd>
+         <dt align=center> Mardi: 9:30–22:00</dt><dd>réservation non obligatoire</dd>
+         <dt align=center> Mercredi: 9:30–22:00</dt><dd>réservation non obligatoire</dd>
+         <dt align=center> Jeudi: 9:30–22:00</dt><dd>réservation non obligatoire</dd>
+         <dt align=center> Vendredi: 2:30–23:00</dt><dd>réservation non obligatoire</dd>
+         <dt align=center> Lundi: 10:30–23:30</dt><dd>réservation obligatoire</dd>
+         <dt align=center> Lundi: 10:30–23:30</dt><dd>réservation obligatoire</dd>
+     </dl>
+     <h2 id=titr3>Adresse</h2> 
+     <p id="pe1" align=center >Institut National des Postes et Télécommunications (I.n.p.t.) <br/> RABAT </p>
+     <h2 id=titr4>Coordonnées </h2>
+     <p id="pe3" align=center>0512345678<br/>0687654321</p>
+</body>
+</html>
