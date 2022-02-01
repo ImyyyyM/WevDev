@@ -9,6 +9,11 @@
     <link rel="stylesheet" type="text/css" href="design.css" >
     <title>Rendez-vous</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+          background-color: rgb(250, 226, 250);
+        }
+      </style>
 </head>
 
 <body>
@@ -31,12 +36,13 @@
     <h1 align="center" ><i><strong>ASEDSGLAM</strong></i></h1>
     <h2 id="ti1"><strong>Mon rendez-vous</strong></h2>
     <form method="post" action="serveur.php">
-        <fieldset style="height: 34cm;"> 
+        <fieldset style="height: 38cm;"> 
             <strong>
                 <legend id="legend"><i> Veuillez remplir ce formulaire</i></legend>
             <label id="lab1" >Nom:</label>
             <input id="form1" type="text" name="nom">
             <br/>
+            <img id="image11" src="me.jfif" width=30% height=40% alt="coiffure"  vspace=15px align="right"> 
             <label id="lab2" >Prénom:</label>
             <input id="form2" type="text" name="prénom">
             <br/>
@@ -47,6 +53,7 @@
             <input id="form4" type="email">
             <label id="lab5">Les prestations:</label>
             <br/>
+            <img id="image10" src="monsalon.jpg" width=50% height=60% alt="coiffure"  vspace=15px align="right"> 
             <div >
             <input id="check1" type="checkbox" name="check1">
             <label for="check1" id="labe1">Brushing</label> 
@@ -83,11 +90,11 @@
             <input id="check9" type="checkbox" name="check9">
             <label for="check9" id="labe9">Vernis permanent</label>
             </div>
-            <label id="coif">Coiffeur selectionné:</label>
+            <label id="coif">Personne selectionnée:</label>
             <select id="list" size="2">
-                <option>Coiffeur x</option>
-                <option>Coiffeur y</option>
-                <option>Coiffeur z</option>
+                <option>Coiffeur Joelle</option>
+                <option>Coiffeur Midou</option>
+                <option>Coiffeur Hind</option>
             </select>
             <label id="date">Choisir une date:</label>
             <input type="date" id="dat" >
@@ -110,6 +117,7 @@
          <dt align=center> Lundi: 10:30–23:30</dt><dd>réservation obligatoire</dd>
      </dl>
      <h2 id=titr3>Adresse</h2> 
+     <h2><img id="map2" src="map.png" width=45% height=45% alt="photo du salon de coiffure" vspace=40px></h2>
      <p id="pe1" align=center >Institut National des Postes et Télécommunications (I.n.p.t.) <br/> RABAT </p>
      <h2 id=titr4>Coordonnées </h2>
      <p id="pe3" align=center>0512345678<br/>0687654321</p>

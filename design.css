@@ -41,14 +41,21 @@ a.b{border: 5px solid rgb(241, 179, 241) ;}
 a.a{border: 5px solid rgb(241, 179, 241) ;}
 #link1{position: absolute;left: 26cm; top: 9cm; z-index: 20;}
 #link2 {position: absolute; left: 23cm; top: 11cm; z-index: 2;}
-#image{position: absolute;left: 0cm; top: 3cm; z-index: 11;}
+#image{position: absolute; left: 1cm; top: 3cm; z-index: 11;}
+#image1{position: absolute; right: 10cm; top: 4.7cm;}
+#image2{position: absolute; right: 10cm; top: 10.5cm;}
+#image8{position: absolute; right: 2cm; top: 10.5cm;}
+#image10{position: absolute; right: 4cm; top: 15cm;}
+#image11{position: absolute; right: 1cm; top: 7cm;}
 #sep{position: absolute; top: 17cm;}
-#titre2{position: absolute; top: 18cm; left: 5cm;}
-#hor{position: absolute; align-content: center; top: 19cm; left: 5cm;}
-#p1{position: absolute; top: 19cm; left: 14cm;}
-#titre3{position: absolute; top: 18cm; left: 18cm;}
-#titre4{position: absolute; top: 18cm; right: 5cm;}
-#p3{position: absolute; top: 19cm; right: 5.70cm;}
+#titre2{position: absolute; top: 18cm; left: 2cm;}
+#hor{position: absolute; align-content: center; top: 19cm; left: 3cm;}
+#p1{position: absolute; top: 19cm; left: 12cm;}
+#titre3{position: absolute; top: 18cm; left: 15cm;}
+#map{position: absolute; top: 20cm; left: 10cm;}
+#map2{position: absolute; top: 43cm; left: 12cm;}
+#titre4{position: absolute; top: 18cm; right: 3cm;}
+#p3{position: absolute; top: 19cm; right: 4.5cm;}
 #tit1{position:absolute; font-size:  40px; left: 2cm; top: 2cm;}
 #tit2{color: violet; font-size: 30px; left: 3cm; top: 4cm;}
 #tit3{color: violet; font-size: 30px; left: 3cm; top: 13cm;}
@@ -66,10 +73,10 @@ a.a{border: 5px solid rgb(241, 179, 241) ;}
 #int3{ right: 1cm; top: 1.2cm;}
 #legend{color: rgb(148, 53, 148); position: absolute; left: 3cm; top: 4.2cm; font-size: 25px;}
 #ti1{color: rgb(148, 53, 148); position: relative; left:25cm ; top: 0cm; font-size: 30px;}
-#form1{position: absolute; left: 15cm; top: 7cm; font-size: 20px;}
-#form2{position: absolute; left: 15cm; top: 9cm; font-size: 20px;}
-#form3{position: absolute; left: 15cm; top: 11cm; font-size: 20px;}
-#form4{position: absolute; left: 15cm; top: 13cm; font-size: 20px;}
+#form1{position: absolute; left: 12cm; top: 7cm; font-size: 20px;}
+#form2{position: absolute; left: 12cm; top: 9cm; font-size: 20px;}
+#form3{position: absolute; left: 12cm; top: 11cm; font-size: 20px;}
+#form4{position: absolute; left: 12cm; top: 13cm; font-size: 20px;}
 #lab1{position: absolute; left: 2cm; top: 7cm; font-size: 20px;}
 #lab2{position: absolute; left: 2cm; top: 9cm; font-size: 20px;}
 #lab3{position: absolute; left: 2cm; top: 11cm; font-size: 20px;}
@@ -93,15 +100,15 @@ a.a{border: 5px solid rgb(241, 179, 241) ;}
 #labe8{position: absolute; left: 5cm; top: 23cm; font-size: 20px;}
 #check9{position: absolute; left: 4cm; top: 24cm; font-size: 20px;}
 #labe9{position: absolute; left: 5cm; top: 24cm; font-size: 20px;}
-#coif{position: absolute; left: 2cm; top: 26cm; font-size: 20px;}
-#list{position: absolute; left: 9cm; top: 26cm; font: optional;font-size: 20px; width: 5cm;}
-#date{position: absolute;left: 2cm; top: 28cm; font-size: 20px;}
-#dat{position: absolute;left: 9cm; top: 28cm; font-size: 20px;}
-#heure{position: absolute;left: 2cm; top: 30cm; font-size: 20px;}
-#heur{position: absolute;left: 9cm; top: 30cm; font-size: 20px;}
+#coif{position: absolute; left: 10cm; top: 27cm; font-size: 20px;}
+#list{position: absolute; left: 18cm; top: 27cm; font: optional;font-size: 20px; width: 5cm;}
+#date{position: absolute;left: 10cm; top: 29cm; font-size: 20px;}
+#dat{position: absolute;left: 18cm; top: 29cm; font-size: 20px;}
+#heure{position: absolute;left: 10cm; top: 31cm; font-size: 20px;}
+#heur{position: absolute;left: 18cm; top: 31cm; font-size: 20px;}
 
-#sub{position: absolute;  font-size: 25px; left: 7cm; top: 36cm}
-#res{position: absolute;  font-size: 25px; left: 12cm; top: 36cm}
+#sub{position: absolute;  font-size: 25px; left: 13cm; top: 34cm}
+#res{position: absolute;  font-size: 25px; left: 18cm; top: 34cm}
 #sep1{position: absolute; top: 40cm;}
 #titr1{position: absolute; top: 41cm; left: 5cm;}
 #hor2{position: absolute; align-content: center; top: 42cm; left: 5cm;}
@@ -109,8 +116,8 @@ a.a{border: 5px solid rgb(241, 179, 241) ;}
 #pe1{position: absolute; top: 42cm; left: 14cm;}
 #titr4{position: absolute; top: 41cm; right: 5cm;}
 #pe3{position: absolute; top: 42cm; right: 5.70cm;}
-#d1{position: absolute; left: 18.70cm;top: 4cm;}
-#d2{position: absolute; left: 15.70cm; top: 5cm;}
-#d3{position: absolute; left: 15.70cm; top: 6cm;}
-#d4{position: absolute; left: 15.70cm;top: 8cm;}
+#d1{position: absolute; left: 23cm;top: 7cm;}
+#d2{position: absolute; left: 20cm; top: 8cm;}
+#d3{position: absolute; left: 20cm; top: 9cm;}
+#d4{position: absolute; left: 20cm;top: 11cm;}
 
